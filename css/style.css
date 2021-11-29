@@ -1,0 +1,76 @@
+:root{
+    --violet: hsl(257, 40%, 49%);
+    --soft_magenta: hsl(300, 69%, 71%);
+}
+
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #674baf;
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 90%;
+    height: 640px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.photoside{
+    width: 60%;
+    height: 640px;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+ .textside{
+     width: 30%;
+     padding: 50px 0;
+     height: 640px;
+     color: white;
+     margin-right: 100px;
+ }
+
+ .textside h1{
+     font-size: 30px;
+     margin-bottom: 20px;
+     font-weight: 600;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .logo{
+     width: 100%;
+     margin-bottom: 50px;
+     margin-top: 50px;
+     margin-left: 40px;
+ }
+
+ .register {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: #674baf;
+  }
+  
+  .register:hover {
+    background-color: #e882e8;
+    cursor: pointer;
+  }
+  
